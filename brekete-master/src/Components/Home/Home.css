@@ -1,0 +1,170 @@
+
+.hero-div {
+    margin-top: 50px !important;
+    /* margin-left: 50px; */
+}
+
+.hero {
+    width: 100% !important;
+    border-radius: 100% !important;
+    border: 10px !important;
+    border-color: black !important;
+    margin-top: -100px !important;
+    margin-left: -100px !important;
+  
+}
+
+.hero-clip {
+    mix-blend-mode: darken !important;
+    width: 50% !important;
+    position: absolute !important;
+    margin-left: -100px !important;
+}
+
+.hero-clip2 {
+    mix-blend-mode: darken !important;
+    width: 30% !important;
+    position: absolute !important;
+    margin-left: 100px !important;
+}
+
+.hero-card {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    align-items: center !important;
+    padding-top: 200px !important;
+}
+
+.trickery {
+    padding-top: -100px !important;
+    padding-left: 150px!important;
+}
+
+.hero-text {
+    font-size: 60px !important;
+    background-image: linear-gradient(black, rgb(172, 26, 26)) !important;
+    -webkit-text-fill-color: transparent !important;
+    -webkit-background-clip: text!important;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-button {
+    width: 100px !important;
+    color: black !important;
+     
+    background-image: linear-gradient(black, rgb(172, 26, 26)) !important;
+    -webkit-text-fill-color: transparent !important;
+    -webkit-background-clip: text !important;
+    background-color: red !important;
+    border-radius: 100px !important;
+    border-color: black !important;
+    height: 50px !important;
+}
+
+
+.hero-button:hover {
+    width: 100px !important;
+    color: black !important;
+     
+    background-image: linear-gradient(black, rgb(172, 26, 26)) !important;
+     cursor: pointer;
+    -webkit-background-clip: text !important;
+    background-color: red !important;
+    border-radius: 100px !important;
+    border-color: black !important;
+    height: 50px !important;
+}
+
+
+
+
+    
+    
+
+
+
+
+    @media only screen and (min-device-width: 240px) and (max-device-width: 912px) {
+
+
+
+
+        
+.hero-div {
+    margin-top: 50px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-left: 50px; */
+}
+
+.hero {
+    width: 100% !important;
+    border-radius: 100% !important;
+    border: 10px !important;
+    border-color: black !important;
+    margin-top: -100px !important;
+    margin-left: -100px !important;
+}
+
+.hero-clip {
+    mix-blend-mode: darken !important;
+    width: 100% !important;
+    position: absolute !important;
+    margin-left: 0px !important;
+}
+
+.hero-clip2 {
+    mix-blend-mode: darken !important;
+    width: 100px!important;
+    position: absolute !important;
+    margin-left: 100px !important;
+}
+
+.hero-card {
+    display: flex !important;
+    flex-direction: column;
+    align-items: center !important;
+    justify-content: center;
+    padding-top: 200px !important;
+}
+
+.trickery {
+    padding-top: 0px !important;
+    padding-left: 0px!important;
+   
+}
+
+.hero-text {
+    font-size: 60px !important;
+    background-image: linear-gradient(black, rgb(172, 26, 26)) !important;
+    -webkit-text-fill-color: transparent !important;
+    -webkit-background-clip: text!important;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-button {
+    width: 100px !important;
+    color: black !important;  
+    background-image: linear-gradient(black, rgb(172, 26, 26)) !important;
+    -webkit-text-fill-color: transparent !important;
+    -webkit-background-clip: text !important;
+    background-color: red !important;
+    border-radius: 100px !important;
+    border-color: black !important;
+    height: 50px !important;
+    
+}
+
+
+
+  
+    }

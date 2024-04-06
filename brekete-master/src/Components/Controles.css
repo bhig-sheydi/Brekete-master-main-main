@@ -1,0 +1,155 @@
+/* Global reset */
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+ }
+ 
+ /* Main control container */
+ .controle-div {
+   background-color: pink;
+   width: 93%;
+   height: 70px;
+   border-radius: 10px;
+   color: black;
+   display: flex;
+   align-items: center;
+   justify-content: space-between; /* Distribute items horizontally */
+   padding: 0 20px; /* Add padding to the sides */
+   margin-left: 70px;
+ }
+ 
+ /* Volume control */
+ .vlme {
+   display: flex;
+   align-items: center;
+ }
+ 
+ /* Volume icon */
+ .vlme .volum {
+   margin-right: 10px; /* Add some space between icon and slider */
+ }
+ 
+ /* Volume slider */
+ .vlme input[type='range'] {
+   width: 100px; /* Adjust the width as needed */
+ }
+ 
+ /* Music controls */
+ .musicControles {
+   display: flex;
+   align-items: center;
+ }
+ 
+ /* Control buttons */
+ .ctl span {
+   font-size: 24px; /* Increase the size of control icons */
+   margin: 0 10px; /* Add space between icons */
+   cursor: pointer;
+ }
+ 
+ /* Progress bar container */
+ .progressBar,
+ .progressBar2 {
+   flex: 1; /* Take remaining space */
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+ }
+ 
+ /* Progress bar */
+ progress {
+   width: 150%;
+   margin-left: 100PX;
+ }
+ 
+ /* Time display */
+ .time {
+   margin-top: 5px; /* Add some space between progress bar and time */
+   font-size: 14px; /* Adjust font size */
+ }
+ 
+ /* Song meta container */
+ .songMeta {
+   text-align: center; /* Center align song meta */
+ }
+ 
+ /* Song title */
+ .songTitle {
+   font-size: 18px; /* Increase font size */
+   font-weight: bold; /* Make it bold */
+ }
+ 
+ /* Artist name */
+ .artistName {
+   font-size: 16px; /* Increase font size */
+   color: #555; /* Dim the color a bit */
+ }
+ 
+ /* Media queries for responsiveness */
+ @media only screen and (min-device-width: 220px) and (max-device-width: 912px) {
+   .controle-div {
+     background-color: #eec0c6;
+     height: 100px;
+  width: 100%;
+     font-size: 5px;
+     margin-top: 20px;
+     margin-left: 0px;
+   }
+ 
+   .currentT {
+     display: none;
+   }
+ 
+   .artistName {
+     display: none;
+   }
+ 
+   .artistName {
+     font-size: 10px;
+     text-align: center;
+   }
+ 
+   .hide {
+     display: none;
+   }
+ 
+   progress {
+     width: 100%;
+     margin-left: 0px;
+   }
+ 
+   .progressBar {
+     margin-left: 0px;
+   }
+ 
+   .progressBar2 {
+     margin-left: 0px;
+   }
+ 
+   audio {
+     position: relative;
+     background-color: blue;
+   }
+ 
+   .widthV {
+     width: 70px;
+     height: 5px;
+   }
+ 
+   .vlme {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+   }
+ 
+   .totalT {
+     display: none;
+   }
+ 
+   .currentT {
+     margin-left: -60px;
+   }
+ }
+ 

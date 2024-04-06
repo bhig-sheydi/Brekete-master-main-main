@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+.profile
+{
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.arangemen 
+{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    gap: 250px;
+    margin-top: 200px;
+    text-align:center;
+}
+
+.arangemen .div1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    
+} 
+
+
+.arangemen .div2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+     width: 100%;
+     gap: 50px;
+} 
+
+
+.arangemen .div1 button{
+
+ 
+     background-color: transparent;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+
+
+     
+ } 
+
+
+
+
+.arangemen .div1 button .icon{
+
+   font-size: 100px;
+   
+     
+     
+ } 
+
+ 
+.arangemen .div1 p{
+
+    margin-top: 50px;
+    
+    
+      
+  } 
+
+
+
+  .arangemen .div2 button {
+
+    background-color: rgb(185, 45, 45);
+    border: none;
+    height: 30px;
+    border-radius: 20%;
+    padding: 3px;
+    color: whitesmoke;
+    box-shadow: inset 1px 1px black;
+   
+    
+      
+      
+  } 
+
+  .arangemen .div1 button img{
+
+
+    width: 100%;
+  }
+    
+      
+      
+  
+
+
+  @media only screen and (min-device-width: 220px) and (max-device-width: 912px) {
+
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    
+    
+    
+    .profile
+    {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    
+    .arangemen 
+    {
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        gap: 5px;
+        margin-top: 200px;
+        text-align:center;
+    }
+
+
+ 
+    
+    .arangemen .div1{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+        
+    } 
+    
+    
+    .arangemen .div2{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+         width: 100%;
+         gap: 50px;
+    } 
+    
+    
+    .arangemen .div1 button{
+    
+        width: 100px;
+         background-color: transparent;
+        border-radius: 50%;
+        width: 100%;
+        height: 150px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+         
+     } 
+    
+    
+    
+    
+    .arangemen .div1 button .icon{
+    
+       font-size: 100px;
+       
+         
+         
+     } 
+    
+     
+    .arangemen .div1 p{
+    
+        margin-top: 50px;
+        
+          
+      } 
+    
+    
+    
+      .arangemen .div2 button {
+    
+        background-color: rgb(185, 45, 45);
+        border: none;
+        height: 30px;
+        border-radius: 20%;
+        padding: 3px;
+        color: whitesmoke;
+        box-shadow: inset 1px 1px black;
+        
+          
+          
+      } 
+    }

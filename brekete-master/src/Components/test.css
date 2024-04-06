@@ -1,0 +1,234 @@
+.general{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;  
+    padding-top: 100px;
+  
+
+}
+
+
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    height:80vh;
+
+
+    
+}
+
+.form input
+{
+  width: 300px;
+  height: 40px;
+}
+
+.form button
+{
+  width: 100px;
+}
+
+.form a{
+    color: blue;
+    cursor: pointer;
+    width: 30px;
+   
+}
+
+
+.pannel
+{
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+    width: 100%;
+     row-gap: 30px;
+}
+
+.form img
+{
+  width: 100px;
+}
+
+
+.sorting
+{
+  display: grid;
+ grid-template-columns: 1fr 1fr;
+}
+
+
+
+.hide
+{
+  display: none;
+}
+
+.mm
+{
+  padding: 100px;
+}
+
+.general3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 1005;
+    gap: 20px;
+    height: 500px;
+    overflow-y: scroll;
+    
+
+}
+
+
+/* Customizing scrollbar for WebKit browsers */
+/* Width of the scrollbar */
+::-webkit-scrollbar {
+    width: 2px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Background color of the track */
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; /* Color of the scrollbar handle */
+    border-radius: 6px; /* Rounded corners */
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Color on hover */
+  }
+  
+
+
+  @media only screen and (min-device-width: 220px) and (max-device-width: 912px) {
+
+    .general{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      align-content: center;  
+      padding-top: 180px;
+      
+    
+  
+  }
+
+  .sorting
+{
+  display: flex;
+ flex-direction: column;
+ padding-top: 300px;
+}
+
+  
+  
+  .form{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      width: 50%;
+      height:80vh;
+  
+  
+      
+  }
+  
+  .form input
+  {
+    width: 300px;
+    height: 40px;
+  }
+  
+  .form button
+  {
+    width: 100px;
+  }
+  
+  .form a{
+      color: blue;
+      cursor: pointer;
+      width: 30px;
+     
+  }
+  
+  
+  .pannel
+  {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+      width: 100%;
+       row-gap: 30px;
+  }
+
+
+  .pannel input {
+    height: 50px;
+  }
+  
+  .form img
+  {
+    width: 100px;
+  }
+  
+  
+  .hide
+  {
+    display: none;
+  }
+  
+  .mm
+  {
+    padding: 100px;
+  }
+  
+  .general3{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      width: 1005;
+      gap: 20px;
+      height: 500px;
+      overflow-y: scroll;
+      
+  
+  }
+  
+  
+  /* Customizing scrollbar for WebKit browsers */
+  /* Width of the scrollbar */
+  ::-webkit-scrollbar {
+      width: 2px;
+    }
+    
+    /* Track */
+    ::-webkit-scrollbar-track {
+      background: #f1f1f1; /* Background color of the track */
+    }
+    
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+      background: #888; /* Color of the scrollbar handle */
+      border-radius: 6px; /* Rounded corners */
+    }
+    
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+      background: #555; /* Color on hover */
+    }
+
+    
+  }

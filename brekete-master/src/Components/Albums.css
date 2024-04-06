@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.album2
+{
+    width: 60%;
+    margin-top: 50px;
+    padding-bottom: 20px ;
+     display: flex;
+     align-items: center;
+    cursor: pointer;
+    height: 30vh;
+    overflow: hidden;
+   
+
+}
+
+
+.change{
+
+   display: none;
+}
+
+
+.albumPic{
+
+    width: 200px;
+    height: 100%;
+    
+}
+
+
+.album2 img
+{
+    width: 200px;
+    margin-right: 200px;
+    height: 100%;
+    
+}
+
+
+
+
+
+
+.album2 h1
+{
+    font-size: 14px;
+    text-align: center;
+
+}
+
+
+.selectedAlbum
+{
+    
+    background-color: pink;
+    
+}
+
+
+
+
+
+
+
+@media only screen and (min-device-width: 220px) and (max-device-width: 912px)
+{
+
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    
+    .album2
+    {
+        width: 100%;
+        margin-top: 100px;
+        padding-bottom: 0px ;
+         display: flex;
+         align-items: center;
+        cursor: pointer;
+        height: 100%;
+        overflow: hidden;
+       
+    
+    }
+    
+    
+    .change{
+    
+       display: none;
+    }
+    
+    
+    .albumPic{
+    
+        width: 200px;
+        height: 40%;
+        
+    }
+    
+    
+    .album2 img
+    {
+        width: 100px;
+        margin-right: 200px;
+        height: 100%;
+        
+    }
+    
+    .album2 h1
+    {
+        font-size: 5px;
+        text-align: center;
+    
+    }
+    
+    
+    .selectedAlbum
+    {
+        
+        background-color: pink;
+        
+    }
+}

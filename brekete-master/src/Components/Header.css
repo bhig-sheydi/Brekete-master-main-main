@@ -1,0 +1,53 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.header-div
+{
+    width: 70%;
+    background-color: black;
+    margin-left: 250px;
+    text-align: center;
+   
+    color: #EEC0C6 ;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (min-device-width: 220px) and (max-device-width: 912px)
+{
+    *
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.cd
+{
+    visibility: collapse;
+   
+}
+
+.header-div
+{
+
+    
+    width: 100%;
+    background-color: black;
+    margin-left: 0px;
+    text-align: center;
+   
+    color: #EEC0C6 ;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+}

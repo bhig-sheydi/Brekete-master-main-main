@@ -1,0 +1,241 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media only screen 
+and (min-device-width : 1024px)
+and (max-device-width : 1280px)
+{ */
+.navbar{
+
+    display: flex;
+    align-items: center;
+
+    flex-direction: column;
+    width: 90px;
+  
+     height: 100vh;
+    row-gap: 50px;
+    background-image: linear-gradient(#7EE8FA, #EEC0C6);
+    transition: 3s ;
+    float: left;
+    position: fixed;
+    overflow: hidden;
+    
+   
+
+
+
+}
+
+
+.logout-div{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+   
+}
+
+
+.logout-div p
+{
+    text-align: center;
+}
+
+
+.logout-div a
+{
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    
+}
+
+.profile
+{
+    width: 50px;
+    border-radius: 100%;
+    margin-left: 10px;
+}
+
+
+
+
+
+
+.navbar:hover{
+
+    display: flex;
+    align-items: center;
+
+    flex-direction: column;
+    width: 90px;
+    border-radius: 20px;
+     height: 100vh;
+    row-gap: 50px;
+    background-image: linear-gradient(#7EE8FA, #EEC0C6);
+    box-shadow: 1px 1px 4px 1px #EEC0C6 ;
+    transition: 1s;
+}
+
+
+
+.navbar ul 
+
+{
+    transition: 0.5s;
+    animation-duration: 2s;
+    animation: both;
+    animation-delay: 3s;
+}
+
+.logo
+{
+    width: 70px;
+    border-radius: 40px;
+    margin-top: 20px;
+}
+
+
+.navbar ul
+{
+    width: 100%;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    row-gap: 50px;
+    
+    
+}
+
+.navbar li {
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+    width: 100%;
+}
+
+
+.navbar a
+{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.navbar a:hover
+{
+    
+    color: brown;
+}
+
+/* } */
+
+
+
+
+@media only screen 
+and (min-device-width : 280px)
+and (max-device-width : 912px)
+{
+    .navbar{
+
+        display: flex   !important; 
+        align-items: center    !important;
+        justify-content: center;
+        width: 100%   !important;
+        background-image: linear-gradient( transparent , #eec0c6c7 50%)   !important;
+        transition: 3s    !important;
+        position: fixed;
+         z-index: 1000;
+         height: 100%;
+    
+
+       
+       
+    }
+    
+
+    
+    
+    
+    .navbar ul 
+    
+    {
+        transition: 0.5s;
+       
+    
+    
+        display: grid;
+        align-items: center;
+
+    }
+
+
+        
+    
+    .navbar ul li
+    
+    {
+       
+    
+    
+        display: flex;
+        flex-direction: column;
+
+    }
+    
+    .logo
+    {
+        width: 70px;
+        border-radius: 40px;
+        margin-top: -270px !important;
+        position: absolute;
+        bottom: 1vh;
+     
+    }
+    
+    
+    .navbar ul
+    {
+        width: 100%;
+         display: flex;
+         flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        row-gap: 50px;
+        
+        
+    }
+    
+    .navbar li {
+        text-decoration: none;
+        list-style: none;
+        text-align: center;
+        width: 100%;
+    }
+    
+    
+    .navbar a
+    {
+        text-align: center;
+        text-decoration: none;
+        color: red;
+    }
+    
+    .navbar a:hover
+    {
+        
+        color: brown;
+    }
+}

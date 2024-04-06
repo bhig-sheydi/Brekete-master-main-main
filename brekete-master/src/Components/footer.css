@@ -1,0 +1,51 @@
+/* @media only screen 
+and (min-device-width : 1024px)
+and (max-device-width : 1280px)
+{ */
+
+
+footer
+{
+
+
+    width: 100%;
+    height: 30vh;
+    border: solid;
+    background-image: -webkit-repeating-linear-gradient( #EEC0C6 , rgb(168, 168, 221));
+    border: none;
+    position: relative;
+   bottom: -100vh;
+    
+}
+
+
+
+/* }
+
+
+
+
+@media only screen 
+and (min-device-width : 320px)
+and (max-device-width : 480px)
+{
+
+
+
+    footer
+{
+
+
+    width: 100%;
+    height: 30vh;
+    border: solid;
+    background-image: -webkit-repeating-linear-gradient( #EEC0C6 , rgb(168, 168, 221));
+    border: none;
+    position: relative;
+   bottom: -100vh;
+    
+}
+
+
+    
+} */
